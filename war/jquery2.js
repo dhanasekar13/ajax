@@ -38,6 +38,8 @@ function c(){
 	$.ajax({
 		type:"POST",
 		url:"biodata",
+		dataType:"text",
+		contentType:"application/x-www-form-urlencoded",
 		data:{json:myjson},
 		success:function(data){
 			if(data!=null)
