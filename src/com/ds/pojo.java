@@ -1,9 +1,18 @@
 package com.ds;
 
+
 import org.codehaus.jackson.annotate.JsonProperty;
 
 public class pojo {
-	private String name,address,phone,email;
+	
+	private String email;
+
+	private String address;
+	
+	private String phone;
+	
+	private String name;
+	
 	public void setn(String name)
 	{
 		this.name=name;
